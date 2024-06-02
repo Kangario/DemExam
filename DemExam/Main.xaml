@@ -1,0 +1,27 @@
+﻿<Page x:Class="DemExam.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DemExam"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Main">
+
+    <Grid>
+        
+        <Border Background="Green" Opacity="0.75" Width="250" CornerRadius="40" HorizontalAlignment="Left">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Border Background="Black" Height="20" Width="150" Opacity="1" CornerRadius="0,0,25,25" VerticalAlignment="Top">
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="LABEL" Foreground="White" FontWeight="ExtraBold"/>
+                </Border>
+
+                <Border Background="Black" Height="35" Opacity="0.75" CornerRadius="10" Margin="0,30,0,0"/>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
