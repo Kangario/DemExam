@@ -10,7 +10,10 @@
                 connection.Open();
 
                 string sql = "SELECT * FROM Client";
-
+                INSERT INTO table_name (column1, column2, column3, ...)
+                VALUES (value1, value2, value3, ...);
+                DELETE FROM users
+                WHERE name = 'John Doe';
                 using (var command = new SqliteCommand(sql, connection))
                 {
                     using (var reader = command.ExecuteReader())
