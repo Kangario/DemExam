@@ -1,6 +1,6 @@
 # DemExam
-
-```  public List<UserData> ConnectionToDb()
+```
+  public List<UserData> ConnectionToDb()
         {
             string basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             string currentDB = "Data Source=" + basePath + connectionString;
